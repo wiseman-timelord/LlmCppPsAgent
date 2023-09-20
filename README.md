@@ -1,11 +1,14 @@
 # LlmCppPsBot
 ### STATUS: Upload soon...
-* Due to, having to re-create the test script and fixing functions when really import was corrupt, ran out of energy for today, but otherwise, the scripts are mostly figured out and implemented, for the basic version. 
-* Work remaining...
+* Due to, having to re-create the test script and fixing functions when really import was corrupt, ran out of energy for today, but otherwise, the scripts are mostly figured out and implemented, for the basic version. Upload will happen upon upload of working version.
+* Work remaining for v1.00...
 1) Interaction code. Had to re-create barebones test script, as main program was built on original test script, was good, learned better method of doing the syntax.
 2) 3 Issues with production of values not being passed on to relating functions.
-3) Create standalone helper script, to detect or otherwise specify, then, download and install, the correct cpp binaries for the processor/graphics being used in the system, instead of it just being as current clblas/avx2.
-4) check for .ENV, and if not replicate default from data, from run batch, that is already present in "Llama2Robot-GGUF", and I now realise creates linux incompatibility in  "Llama2Robot-GGUF".
+* Planned updates for >v1.00
+3) Upon run main prog from batch, it should check for .ENV, and if not replicate default from data, this feature is already present in "Llama2Robot-GGUF".
+1) standalone script, to detect hardware, then, download and install, the correct cpp binaries for the processor/graphics being used in the system, instead of it just being clblas/avx2 only.
+2) selection of which graphics card to use, I have a 2GB Graphics card somewhere also, so can test and implement this, if I can find a small model.
+
 
 
 ### DESCRIPTION:
