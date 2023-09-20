@@ -57,13 +57,6 @@ Waiting for response...
                   HW Setup (Llama.Cpp)
 =======================================================
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
-                   Startup Processes
--------------------------------------------------------
-Working folder: D:\LlmCppPsBot\LlmCppPsBot-main
-Window_1 and Window_2, are closed (correct).
-Running with administrative privileges.
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++
                   CPU Selection Menu
 -------------------------------------------------------
                   1) AMD   (Avx 1)
