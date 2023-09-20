@@ -29,6 +29,7 @@ Inspecting the models...
 Model: llama-2-7b-chat.Q2_K.gguf - 2695 MB
 Using safe number of 1740 threads.
 Main used: .\llama\clblas\main.exe.
+Listening for pipeline notifications...
 
 
 ```
