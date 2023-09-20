@@ -1,6 +1,6 @@
 # LlmCppPsBot
 ### STATUS: Upload soon...
-* Hopefully finish basic version today, its all, figured out and mostly there. 
+* Due to, having to re-create the test script and fixing functions when really import was corrupt, ran out of energy for today, but otherwise, the scripts are mostly figured out and implemented, for the basic version. 
 * Work remaining...
 1) Interaction code. Had to re-create barebones test script, as main program was built on original test script, was good, learned better method of doing the syntax.
 2) 3 Issues with production of values not being passed on to relating functions.
