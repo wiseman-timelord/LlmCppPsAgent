@@ -14,16 +14,18 @@ The program "LlmCppPsRobot" is a PowerShell-based application designed to serve 
 * Window_1
 ```
 ========================================================================================
-                          Engine started - 2023/09/20 @ 04:20
+                            Engine started - 2023/09/20 05:17                           
 ========================================================================================
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Engine Output
+----------------------------------------------------------------------------------------
 Clearing input/output keys for config_1...
 Waiting for GPU stats...
-GPU: Radeon (TM) RX 470 Graphics - 6741MB.
+GPU: Radeon (TM) RX 470 Graphics - 7038MB.
 Inspecting the models...
 Model: llama-2-7b-chat.Q2_K.gguf - 2695 MB
 Main used: .\llama\clblas\main.exe.
 Listening for pipeline notifications...
-Received message: raw_input_updated
 
 
 ```
@@ -43,6 +45,8 @@ Hello Computer, are your prompts working now?
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Waiting for response...
+
+
 ```
 
 
