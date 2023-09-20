@@ -12,7 +12,7 @@
 The program "LlmCppPsRobot" is a PowerShell-based application designed to serve as a, multi-window & pipelines, based interface for GGUF based models on modern versions of Windows.
 
 ### INTERFACE:
-* Window_1, note llm is smaller than free VRam, so it choses GPU.
+* Window_1, note llm is smaller than free VRam, so it choses GPU...
 ```
 ========================================================================================
                             Engine started - 2023/09/20 19:46                           
@@ -31,7 +31,7 @@ Listening for pipeline notifications...
 
 
 ```
-* Window_2, note pipeline signaling saves re-checking key content.
+* Window_2, note pipeline signaling saves re-checking key content...
 ```
 ========================================================================================
                       Chatting with Desktop_PC in the Users_Home
@@ -51,6 +51,38 @@ Waiting for response...
 
 
 ```
+* Configure your choices of pre-compiled Llama.Cpp "main.exe"...
+```
+=======================================================
+                  HW Setup (Llama.Cpp)
+=======================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                   Startup Processes
+-------------------------------------------------------
+Working folder: D:\LlmCppPsBot\LlmCppPsBot-main
+Window_1 and Window_2, are closed (correct).
+Running with administrative privileges.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                  CPU Selection Menu
+-------------------------------------------------------
+                  1) AMD   (Avx 1)
+                  2) AMD   (Avx 2)
+                  3) AMD   (Avx 512)
+                  4) Other (Non-Avx)
+Select a CPU type: 2
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                  GPU Selection Menu
+-------------------------------------------------------
+                 1) AMD    (ClBlast)
+                 2) nVidia (CuBlas 11)
+                 3) nVidia (CuBlas 12)
+                 4) Other  (OpenBlas)
+Select a GPU type: 1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+```
+
 
 ### Usage:
 The scripts will be using 85% of the threads available, where how many, "cpu threads" and "gpu shaders", must be, known by the user and set in the ENV.
