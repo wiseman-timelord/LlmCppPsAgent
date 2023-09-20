@@ -21,6 +21,7 @@ Received message: raw_input_updated
 
 
 ```
+* Window_2
 ```
 ========================================================================================
                          Chatting with CubeX3900 in the bedroom
