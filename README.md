@@ -9,6 +9,19 @@
 ### INTERFACE
 * Window_1
 ```
+========================================================================================                          Engine started - 2023/09/20 @ 04:11
+========================================================================================Clearing input/output keys for config_1...
+Waiting for GPU stats...
+GPU: Radeon (TM) RX 470 Graphics - 6741MB.
+Inspecting the models...
+Model: llama-2-7b-chat.Q2_K.gguf - 2695 MB
+Main used: .\llama\clblas\main.exe.
+Listening for pipeline notifications...
+Received message: raw_input_updated
+
+
+```
+```
 ========================================================================================
                          Chatting with CubeX3900 in the bedroom
 ========================================================================================
@@ -23,6 +36,7 @@ Hello Computer, are your prompts working now?
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Waiting for response...
 ```
+
 
 ### DESCRIPTION:
 The program "LlmCppPsRobot" is a PowerShell-based application designed to serve as a, multi-window & pipelines, based interface for GGUF based models on modern versions of Windows. And by the way, currently there is correct detection of free VRAM, that then compares size of model, and if it is smaller than the free ram, then it will load on gpu, otherwise CPU. Additionally the scripts will be using 85% of the threads available on each, but how many cpu threads/gpu shaders must be, known by the user and set in the ENV.
