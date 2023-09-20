@@ -4,6 +4,7 @@
 * Due to unforseen issues, was not able to release on 19th Sept, but otherwise, the scripts are mostly figured out and implemented. Upload will happen upon completion of basic working version, thinking out further and improving other aspects, while working on main issues.
 * Work remaining for v1.00 is currently...
 1) Interaction code. Had to re-create core model interaction test script, as main program was built on original test script, I now can check the scripts with, this and the fully written out prompt logic. In process of having created 2nd model interaction test script, there as bonus learned better method of doing the prompt syntax.
+2) Creation of standalone (hopefully just a batch) script, to install, avx2 and clblas, pre-compiled main.exe, and some notation upon credit for these things. 
 * Planned updates for >v1.00
 1) standalone script, to detect hardware, then, download and install, the correct cpp binaries for the processor/graphics being used in the system, instead of it just being clblas/avx2 only.
 2) selection of which graphics card to use, I have a 2GB Graphics card somewhere also, so can test and implement this, if I can find a small model.
