@@ -4,7 +4,7 @@
 * Due to, having had to re-create the test script and fixing functions when really import was corrupt, ran out of energy for today, but otherwise, the scripts are mostly figured out and implemented. Upload will happen upon completion of basic working version.
 * Work remaining for v1.00 is currently...
 1) Interaction code. Had to re-create core model interaction test script, as main program was built on original test script, I now can check the scripts with, this and the fully written out prompt logic. In process of creating 2nd model interaction test script, as bonus learned better method of doing the prompt syntax.
-2) there are 3 Issues with production of values not being passed on to relating functions.
+2) in the scripts there are 3 Issues with production of values not being passed on to functions requiring them.
 3) Upon run main prog from batch, it should check for .ENV, and if not replicate default from data, this feature is already present in "Llama2Robot-GGUF".
 * Planned updates for >v1.00
 1) standalone script, to detect hardware, then, download and install, the correct cpp binaries for the processor/graphics being used in the system, instead of it just being clblas/avx2 only.
