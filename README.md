@@ -11,7 +11,7 @@
 The program "LlmCppPsRobot" is a PowerShell-based application designed to serve as a, multi-window & pipelines, based interface for GGUF based models on modern versions of Windows. And by the way, currently there is correct detection of free VRAM, that then compares size of model, and if it is smaller than the free ram, then it will load on gpu, otherwise CPU. Additionally the scripts will be using 85% of the threads available on each, but how many cpu threads/gpu shaders must be, known by the user and set in the ENV.
 
 ### INTERFACE
-* Window_1
+* Window_1, note the free ram available displayed.
 ```
 ========================================================================================
                             Engine started - 2023/09/20 05:17                           
@@ -29,7 +29,7 @@ Listening for pipeline notifications...
 
 
 ```
-* Window_2
+* Window_2, note the communication between windows.
 ```
 ========================================================================================
                          Chatting with CubeX3900 in the bedroom
