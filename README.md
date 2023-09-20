@@ -11,9 +11,9 @@
 2) selection of which graphics card to use, I have a 2GB Graphics card somewhere also, so can test and implement this, if I can find a small model.
 
 ### DESCRIPTION:
-The program "LlmCppPsRobot" is a PowerShell-based application designed to serve as a, multi-window & pipelines, based interface for GGUF based models on modern versions of Windows. And by the way, currently there is correct detection of free VRAM, that then compares size of model, and if it is smaller than the free ram, then it will load on gpu, otherwise CPU. Additionally the scripts will be using 85% of the threads available, where how many, "cpu threads" and "gpu shaders", must be, known by the user and set in the ENV.
+The program "LlmCppPsRobot" is a PowerShell-based application designed to serve as a, multi-window & pipelines, based interface for GGUF based models on modern versions of Windows.
 
-### INTERFACE
+### INTERFACE:
 * Window_1, note llm is smaller than free VRam, so it choses GPU.
 ```
 ========================================================================================
@@ -54,4 +54,6 @@ Waiting for response...
 
 ```
 
+### Usage:
+The scripts will be using 85% of the threads available, where how many, "cpu threads" and "gpu shaders", must be, known by the user and set in the ENV.
 
