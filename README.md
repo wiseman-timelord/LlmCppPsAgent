@@ -7,7 +7,7 @@
 2) Creation of standalone (hopefully just a batch) script, to, download and install, avx2 and clblas, pre-compiled "main.exe" in relevanty subdirectories in ".\llama\, and some notation upon credit for these things. 
 * Planned updates for >v1.00
 1) standalone script, to detect hardware, then, download and install, the correct cpp binaries for the processor/graphics being used in the system, instead of it just being clblas/avx2 only.
-2) selection of, primary or secondary, graphics card, I have a 2GB Graphics card somewhere also, so can, test and implement, this, and need, find & download, a 1-2GB languge model first, then there is the possibility of breaking hardware.
+2) selection of, primary or secondary, graphics card, I have a 2GB Graphics card somewhere also, so can, test and implement, this, and need, find & download, a 1-2GB languge model first, then there is the factor of the possibility of breaking hardware, for something I am not going to be using currently and that I can't afford to replace.
 
 ### DESCRIPTION:
 The program "LlmCppPsRobot" is a PowerShell-based application designed to serve as a, multi-window & pipelines, based interface for GGUF based models on modern versions of Windows.
