@@ -2,9 +2,10 @@
 ### STATUS: Upload soon...
 * Hopefully finish basic version today, its all, figured out and mostly there. 
 * Work remaining...
-1) Fix small bits of model interaction code. Had to re-create barebones test script, as main program was built on original test script, was good, learned better method of doing the syntax.
-2) Create standalone helper script, to detect or otherwise specify, then, download and install, the correct cpp binaries for the processor/graphics being used in the system, instead of it just being as current clblas/avx2.
-3) check for .ENV, and if not replicate default from data, from run batch, that is already present in "Llama2Robot-GGUF", and I now realise creates linux incompatibility in  "Llama2Robot-GGUF".
+1) Interaction code. Had to re-create barebones test script, as main program was built on original test script, was good, learned better method of doing the syntax.
+2) 3 Issues with production of values not being passed on to relating functions.
+3) Create standalone helper script, to detect or otherwise specify, then, download and install, the correct cpp binaries for the processor/graphics being used in the system, instead of it just being as current clblas/avx2.
+4) check for .ENV, and if not replicate default from data, from run batch, that is already present in "Llama2Robot-GGUF", and I now realise creates linux incompatibility in  "Llama2Robot-GGUF".
 
 
 ### DESCRIPTION:
