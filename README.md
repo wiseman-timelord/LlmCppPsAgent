@@ -2,7 +2,7 @@
 ### STATUS: Upload soon...
 * Hopefully finish basic version today, its all, figured out and mostly there. 
 * Work remaining...
-1) Fix small bits of model interaction code with now re-created test script.
+1) Fix small bits of model interaction code. Had to re-create barebones test script, as main program was built on original test script, was good, learned better method of doing the syntax.
 2) Create standalone helper script, to detect or otherwise specify, then, download and install, the correct cpp binaries for the processor/graphics being used in the system, instead of it just being as current clblas/avx2.
 
 ### DESCRIPTION:
