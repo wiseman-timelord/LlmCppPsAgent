@@ -36,7 +36,7 @@ Listening for pipeline notifications...
 * Window_2, note the communication between windows.
 ```
 ========================================================================================
-                         Chatting with CubeX3900 in the bedroom
+                      Chatting with Desktop_PC in the Users_Home
 ========================================================================================
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  Mastar's Input
