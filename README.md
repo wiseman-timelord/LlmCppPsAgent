@@ -63,4 +63,4 @@ Waiting for response...
 
 NOTICES:
 * Credit to "ggerganov" for his work on [Llama.Cpp](https://github.com/ggerganov), this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware.
-* Interacting with language models requires your CPU/GPU to run at, in this case 85%, for prolongued periods of time on top of whatever else you have going on, so ([keep an eye on the temps](https://openhardwaremonitor.org/)).
+* Interacting with language models requires your CPU/GPU to run at, in this case 85% on top of whatever else is running, so keep an eye on your temps, I use ([Open Hardware Monitor](https://openhardwaremonitor.org/)).
