@@ -77,7 +77,9 @@ Select a GPU type: 1
 
 
 ### Usage:
-The scripts will be using 85% of the threads available, where how many, "cpu threads" and "gpu shaders", must be, known by the user and set in the ENV.
+1) Run "Configuration.bat", ensure you know your hardware specs (HWinfo and GPUz, are good for this, or look up online), and then choose your binaries accordingly, the batch will take care of the rest (providing you dont have abnormal system settings).   
+2) Ensure you have inserted a GGUF format of model into the ".\models" folder, just the "example.gguf" file itself, thats one file, don't confuse it.
+2) Run "LlmCppPsBot.bat", watch the fireworks as computer produces smoke then glows red hot, and then explodes, metal shards flying in all directions.
 
 NOTICES:
 * Credit to "ggerganov" for his work on "Llama.Cpp", this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware. Find out more about Llama-Cpp [here](https://github.com/ggerganov).
