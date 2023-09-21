@@ -53,14 +53,14 @@ Waiting for response...
 
 ### Usage:
 1) Run "Configuration.bat", ensure you know your hardware specs, and then choose your binaries accordingly, the batch will take care of the rest (providing you dont have abnormal system settings).   
-2) Ensure you have inserted a GGUF format of model into the ".\models" folder, ([this one](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF/blob/main/llama-2-7b-chat.Q4_0.gguf)) will do, just the "example_llm_name.gguf" file itself, thats 1 file, don't confuse it with 2+.
+2) Ensure you have inserted a GGUF format of model into the ".\models" folder, ([this one]https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF/blob/main/llama-2-7b-chat.Q4_0.gguf) will do, just the "example_llm_name.gguf" file itself, thats 1 file, don't confuse it with 2+.
 3) Run "LlmCppPsBot.bat", the program is then running, however, if there is no ".\.ENV" (first run), then it will generate one, and you should make a quick edit upon it, and then run "LlmCppPsBot.bat" again.
 
 ### COMPATIBILITY:
-* Hardware Support - Avx1, Avx2, Avx 512, Non-Avx, ClBlast, CuBlase 11, CuBlas 12, OpenBlas. Use, ([HWinfo](https://www.guru3d.com/download/hwinfo64-download)) and ([GPUz](https://www.guru3d.com/download/gpu-z-2-1/)), to figure out your tech.
-* Model Support - Currently being developed for "[INST] <<SYS>>" syntax, such as Llama-2 models: ([Llama-2-7b-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF)), ([Llama-2-13B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF)), ([Llama-2-70B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF)), though later this will be expanded through syntax selection menu.
+* Hardware Support - Avx1, Avx2, Avx 512, Non-Avx, ClBlast, CuBlase 11, CuBlas 12, OpenBlas. Use, ([HWinfo]https://www.guru3d.com/download/hwinfo64-download) and ([GPUz]https://www.guru3d.com/download/gpu-z-2-1/), to figure out your tech.
+* Model Support - Currently being developed for "[INST] <<SYS>>" syntax, such as Llama-2 models: ([Llama-2-7b-Chat-GGUF]https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF), ([Llama-2-13B-chat-GGUF]https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF), ([Llama-2-70B-chat-GGUF]https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF), though later this will be expanded through syntax selection menu.
 
 
 NOTICES:
-* Credit to "ggerganov" for his work on [Llama.Cpp](https://github.com/ggerganov), this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware.
-* Interacting with language models requires your CPU/GPU to run at, in this case 85% on top of whatever else is running, so keep an eye on your temps, I use [Open Hardware Monitor](https://openhardwaremonitor.org/).
+* Credit to "ggerganov" for his work on ([Llama.Cpp]https://github.com/ggerganov), this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware.
+* Interacting with language models requires your CPU/GPU to run at, in this case 85% on top of whatever else is running, so keep an eye on your temps, I use ([Open Hardware Monitor]https://openhardwaremonitor.org/).
