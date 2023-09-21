@@ -1,6 +1,6 @@
 # LlmCppPsBot
 
-### STATUS: (Upload in 1-2 days)
+### STATUS: Alpha (Working in next few days, got distracted by what I planned to be updates, but, in turn with these parts done, its easier to focus).
 * The scripts are mostly figured out and implemented. Upload will happen upon completion of basic working version, thinking out further and improving other aspects, while working on main scripts. Work remaining for v1.00 is currently...
 1) Interaction code. Had to re-create core model interaction test script, as main program was built on original test script, I now can check the scripts with, this and the fully written out prompt logic. In process of having created 2nd model interaction test script, there as bonus learned better method of doing the prompt syntax.
 2) New standalone batch "Configuration.bat", that produces a menu, what allows the user to, download and install and configure, the correct "Llama.Cpp" binaries for their own processor/graphics, batch is complete, however, main scripts now need updating.
