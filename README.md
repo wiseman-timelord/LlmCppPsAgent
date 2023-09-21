@@ -82,7 +82,9 @@ Select a GPU type: 1
 3) Run "LlmCppPsBot.bat", the program is then running, however, if there is no ".\.ENV" (first run), then it will generate one, and you should make a quick edit upon it, and then run "LlmCppPsBot.bat" again.
 
 ### COMPATIBILITY:
-* Currently being developed for "[INST] <<SYS>>" syntax, this includes official Llama-2 models, such as: ([Llama-2-7b-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF)), ([Llama-2-13B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF)), ([Llama-2-70B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF)), though later this will be expanded through syntax selection menu.
+* Hardware Support - Avx1, Avx2, Avx 512, Non-Avx, ClBlast, CuBlase 11, CuBlas 12, OpenBlas. Use, ([HWinfo](https://www.guru3d.com/download/hwinfo64-download)) and ([GPUz](https://www.guru3d.com/download/gpu-z-2-1/)), to figure out your tech.
+* Model Support - Currently being developed for "[INST] <<SYS>>" syntax, such as Llama-2 models: ([Llama-2-7b-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF)), ([Llama-2-13B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF)), ([Llama-2-70B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF)), though later this will be expanded through syntax selection menu.
+
 
 NOTICES:
 * Credit to "ggerganov" for his work on "Llama.Cpp", this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware. Find out more about Llama-Cpp [here](https://github.com/ggerganov).
