@@ -3,8 +3,7 @@
 ### STATUS: (Upload in 1-2 days)
 * Due to unforseen issues, was not able to release on 19th Sept, but otherwise, the scripts are mostly figured out and implemented. Upload will happen upon completion of basic working version, thinking out further and improving other aspects, while working on main issues. Work remaining for v1.00 is currently...
 1) Interaction code. Had to re-create core model interaction test script, as main program was built on original test script, I now can check the scripts with, this and the fully written out prompt logic. In process of having created 2nd model interaction test script, there as bonus learned better method of doing the prompt syntax.
-2) Creation of standalone (hopefully just a batch) installer script, to, download and install, avx2 and clblas, pre-compiled "main.exe" in relevanty subdirectories in ".\llama\, and some notation upon credit for these things.
-3) "HW_Setup.bat" produces a menu, what allows the user to, download and install and configure, the correct "Llama.Cpp" binaries for their own processor/graphics, batch is complete, however, scripts now need updating.
+2) New batch "HW_Setup.bat" produces a menu, what allows the user to, download and install and configure, the correct "Llama.Cpp" binaries for their own processor/graphics, batch is complete, however, scripts now need updating.
 * Planned updates for >v1.00
 1) selection of, primary or secondary, graphics card, I have a 2GB Graphics card somewhere also, so can, test and implement, this, and need, find & download, a 1-2GB languge model first, then there is the factor of the possibility of breaking hardware, for something I am not going to be using currently and that I can't afford to replace (though i do have a crowdfund on my profile).
 
