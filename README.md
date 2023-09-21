@@ -53,7 +53,7 @@ Waiting for response...
 * Configuration, choice and download, of "Llama.Cpp" combination...
 ```
 =======================================================
-                     CONFIGURATION
+                Hardware Configuration
 =======================================================
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
                   CPU Selection Menu
