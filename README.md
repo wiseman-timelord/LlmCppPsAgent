@@ -15,7 +15,7 @@ The program "LlmCppPsRobot" is a PowerShell-based application designed to serve 
 * Window_1, note llm is smaller than free VRam, so it choses GPU...
 ```
 ========================================================================================
-                 CPU 43c, GPU 50c - Engine started - 2023/09/21 21:39
+                 CPU 43c, GPU 50c - Engine started - 2023/09/21, 21:39
 ========================================================================================
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  Engine Output
