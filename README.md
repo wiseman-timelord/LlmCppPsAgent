@@ -79,8 +79,8 @@ Select a GPU type: 1
 ### Usage:
 1) Run "Configuration.bat", ensure you know your hardware specs (HWinfo and GPUz, are good for this, or look up online), and then choose your binaries accordingly, the batch will take care of the rest (providing you dont have abnormal system settings).   
 2) Ensure you have inserted a GGUF format of model into the ".\models" folder, just the "example.gguf" file itself, thats one file, don't confuse it.
-2) Run "LlmCppPsBot.bat", the program is then running, however, if there is no ".\.ENV" (first run), then it will generate one, and you must take a quick look at it, and then run  "LlmCppPsBot.bat" again.
-3) Thats pretty much it, have fun.
+2) Run "LlmCppPsBot.bat", the program is then running, however, if there is no ".\.ENV" (first run), then it will generate one, and you should make a quick edit upon it, and then run "LlmCppPsBot.bat" again.
+3) Thats pretty much it, and also why im doing it in Powershell, its 90% built-in.
 
 NOTICES:
 * Credit to "ggerganov" for his work on "Llama.Cpp", this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware. Find out more about Llama-Cpp [here](https://github.com/ggerganov).
