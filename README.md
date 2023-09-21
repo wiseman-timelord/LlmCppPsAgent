@@ -61,6 +61,6 @@ Waiting for response...
 * Model Support - Currently being developed for "[INST] <<SYS>>" syntax, such as Llama-2 models: [Llama-2-7b-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF), [Llama-2-13B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF), [Llama-2-70B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF), though later this will be expanded through syntax selection menu.
 
 
-NOTICES:
+### NOTICES:
 * Credit to "ggerganov" for his work on [Llama.Cpp](https://github.com/ggerganov), this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware.
 * Interacting with language models requires your CPU/GPU to run at, in this case 85% on top of whatever else is running, so keep an eye on your temps, I use [Open Hardware Monitor](https://openhardwaremonitor.org/).
