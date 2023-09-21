@@ -83,9 +83,7 @@ Select a GPU type: 1
 3) Run "LlmCppPsBot.bat", the program is then running, however, if there is no ".\.ENV" (first run), then it will generate one, and you should make a quick edit upon it, and then run "LlmCppPsBot.bat" again.
 
 ### COMPATIBILITY:
-* ([Llama-2-7b-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF))
-* ([Llama-2-13B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF))
-* ([Llama-2-70B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF))
+* Official Llama-2: ([Llama-2-7b-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF)), ([Llama-2-13B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF)), ([Llama-2-70B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF)).
 
 NOTICES:
 * Credit to "ggerganov" for his work on "Llama.Cpp", this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware. Find out more about Llama-Cpp [here](https://github.com/ggerganov).
