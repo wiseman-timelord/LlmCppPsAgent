@@ -53,7 +53,7 @@ Waiting for response...
 * Configure choices of "pre-compiled Llama.Cpp" in "Hw_Setup.bat"...
 ```
 =======================================================
-                  HW Setup (Llama.Cpp)
+                  HW INSTALL & SETUP 
 =======================================================
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
                   CPU Selection Menu
