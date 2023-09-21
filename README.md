@@ -80,3 +80,5 @@ Select a GPU type: 1
 ### Usage:
 The scripts will be using 85% of the threads available, where how many, "cpu threads" and "gpu shaders", must be, known by the user and set in the ENV.
 
+NOTICES:
+Credit to "ggerganov" for his work on "Llama.Cpp", this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for all the flavors of hardware one would typically require. Find out more about Llama-Cpp [here(github.com/ggerganov)].
