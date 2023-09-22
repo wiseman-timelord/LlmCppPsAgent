@@ -53,6 +53,7 @@ Listening for pipeline notifications...
 Your Current Input:
 ----------------------------------------------------------------------------------------
 Hello Computer, are your prompts working now?
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Waiting for response...
 
 
