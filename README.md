@@ -1,13 +1,13 @@
 # LlmCppPsBot
 
-### STATUS: Alpha (Working in next few days, got distracted by what I planned to be updates, but, in turn with these parts done, its easier to focus).
+### STATUS: Alpha, working on solid product, rather than barebones iffyness.
 * The scripts are mostly figured out and implemented. Upload will happen upon completion of basic working version, thinking out further and improving other aspects, while working on main scripts. Work remaining for v1.00 is currently...
 1) Interaction code. Had to re-create core model interaction test script, as main program was built on original test script, I now can check the scripts with, this and the fully written out prompt logic. In process of having created 2nd model interaction test script, there as bonus learned better method of doing the prompt syntax.
 2) Menu to select prompt format, dunno, maybe compare model name to shortlist, to see if previously set, and if not, then ask user to select from options, "### Instruction" (used by Daydreamer v3) or "[INST] <<SYS>>" (used by Llama2) or "{system_message} User:" (used by Falcon), syntax formats, will review this later.
-1) selection of, primary or secondary, graphics card, I have a 2GB Graphics card somewhere also, so can, test and implement, this, and need, find & download, a 1-2GB languge model first, then there is the factor of the possibility of breaking hardware, for something I am not going to be using currently and that I can't afford to replace (though i do have a crowdfund on my profile).
+
 
 ### DESCRIPTION:
-The program "LlmCppPsRobot" is a PowerShell-based application designed to serve as a, multi-window & pipelines, based interface for GGUF based models on modern versions of Windows.
+The "LlmCppPsBot" is a sophisticated PowerShell application that integrates GGUF-based models into a dual-window interface on contemporary Windows platforms. Specifically, the window_1 and window_2 scripts are launched independently via batch, with window_1 dedicated to the engine's operations and window_2 offering a seamless chat interface. The program leverages .ENV files for environment configurations, ensuring adaptability and ease of setup. Additionally, a standalone batch "configuration" is incorporated, streamlining the process of hardware configuration and facilitating the download of essential libraries. This design ensures a robust and user-friendly experience for those interacting with the GGUF models.
 
 ### INTERFACE:
 * Window_1, note llm is smaller than free VRam, so it choses GPU...
@@ -68,6 +68,9 @@ Waiting for response...
 * Hardware Support - Avx1, Avx2, Avx 512, Non-Avx, ClBlast, CuBlase 11, CuBlas 12, OpenBlas. Use, [HWinfo](https://www.guru3d.com/download/hwinfo64-download) and [GPUz](https://www.guru3d.com/download/gpu-z-2-1/), to figure out your tech.
 * Model Support - Currently being developed for "[INST] <<SYS>>" syntax, such as Llama-2 models: [Llama-2-7b-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF), [Llama-2-13B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF), [Llama-2-70B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF), though later this will be expanded through syntax selection menu.
 
+### BACKBURNER:
+* Possible far-future functions, I may only implement with funding (see crowdfund on my profile, unable to work).  
+1) Selection of, primary or secondary, graphics cards - currently there is the factor of the possibility of breaking hardware, as have issue with tight slots on MATX motherboard. Require ASRock ATX AM4 motherboard with 2/3 PCIE slots 4 DIMM with space between PCIE slots, such as some of the, B450 or B550. Additionally AMD =>12GB Headless GPU would be motivation. 
 
 ### NOTICES:
 * Credit to "ggerganov" for his work on [Llama.Cpp](https://github.com/ggerganov), this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware.
