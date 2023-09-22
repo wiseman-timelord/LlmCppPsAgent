@@ -68,10 +68,11 @@ Waiting for response...
 * Hardware Support - Avx1, Avx2, Avx 512, Non-Avx, ClBlast, CuBlase 11, CuBlas 12, OpenBlas. Use, [HWinfo](https://www.guru3d.com/download/hwinfo64-download) and [GPUz](https://www.guru3d.com/download/gpu-z-2-1/), to figure out your tech.
 * Model Support - Currently being developed for "[INST] <<SYS>>" syntax, such as Llama-2 models: [Llama-2-7b-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF), [Llama-2-13B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF), [Llama-2-70B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF), though later this will be expanded through syntax selection menu.
 
+
 ### BACKBURNER:
 * Possible far-future functions, I may only implement with funding (see crowdfund on my profile, unable to work).  
 1) Selection of, primary or secondary, graphics cards - currently there is the factor of the possibility of breaking hardware, as have issue with tight slots on MATX motherboard. Require ASRock ATX AM4 motherboard with 2/3 PCIE slots 4 DIMM with space between PCIE slots, such as some of the, B450 or B550. Additionally AMD =>12GB Headless GPU would be great motivation. 
 
 ### NOTICES:
 * Credit to "ggerganov" for his work on [Llama.Cpp](https://github.com/ggerganov), this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware.
-* Interacting with language models requires your CPU/GPU to run at, in this case 85% on top of whatever else is running, so keep an eye on your temps, I use [Open Hardware Monitor](https://openhardwaremonitor.org/).
+* Libraries - [LibreOpenHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor) is used to gain CPU, GPU temps, this is a variation of [Open Hardware Monitor](https://openhardwaremonitor.org/), a great app for resource monitoring on system tray.
