@@ -71,7 +71,7 @@ Waiting for response...
 
 ### BACKBURNER:
 * Possible functions, I would currently only implement with funding (see crowdfund on my profile).  
-1) Selection of, primary or secondary, graphics cards - having 2 x PCIE, that are ill spaced, and choice of, x16 and 4x, on my MATX motherboard. Require Asrock motherboard such as B450 PRO4, so as to have 2 spaced out PCIE x16 slots and 4 DIMM and compatibility with current x3900 cpu.
+1) Selection of, primary or secondary, graphics cards - having 2 x PCIE, that are ill spaced, and choice of, x16 and 4x, on my MATX motherboard, would have to rig ports cards going in at irregular angles going to break something at some point. Require Asrock motherboard such as B450 PRO4, so as to have 2 spaced out PCIE x16 slots, and compatibility with, 4 DDR DIMM and x3900 cpu.
 
 ### NOTICES:
 * Credit to "ggerganov" for his work on [Llama.Cpp](https://github.com/ggerganov), this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware.
