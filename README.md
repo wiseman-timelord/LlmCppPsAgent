@@ -2,8 +2,9 @@
 
 ### STATUS: Alpha - working on solid release, rather than urr.
 * The scripts are mostly figured out, improving various aspects, finding and testing, libraries, code is well optimized. Upload upon completion of working version with desired features, work remaining is currently...
-1) Interaction code - Had to re-create core model interaction test script, as main program was built on original test script, also have fully written out logic.
+1) Interaction code - Had to re-create core model interaction test script, as main program was built on original test script, also have fully written out logic. Scripts now have, admin and correct, working directory upon start, not so easy when launching multiple powershel from batch, either way, issue with interactions can now be worked on as path errors are likely having been working dir. 
 2) Syntax Menu - select syntax format from some shortlist of popular formats, this then set to settings file for next run. formats such as, "### Instruction" (used by Daydreamer v3) or "[INST] <<SYS>>" (used by Llama2) or "{system_message} User:" (used by Falcon), will review this later.
+3) Already has temp implemented in title of engine, when interaction done, must try and re-integrate so people can see updated information about temps, as I feel this is important, additionally would ideally involve freezing of areas of text on the display.
 
 ### DESCRIPTION:
 The "LlmCppPsBot" is a sophisticated PowerShell application that integrates GGUF-based models into a dual-window interface on contemporary Windows platforms. Specifically, the, "window_1" and "window_2", scripts are launched independently via batch, with "window_1" dedicated to the engine's operations and "window_2" offering a seamless chat interface. The program leverages ".ENV" file for environment configurations, ensuring adaptability and ease of setup. Additionally, a standalone batch "configuration" is incorporated, streamlining the process of hardware configuration and facilitating the download of essential libraries. This design ensures a robust and user-friendly experience for those interacting with the GGUF models.
