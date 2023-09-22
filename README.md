@@ -4,7 +4,7 @@
 * Alpha - Working on solid release.
 <br>The scripts are mostly figured out, improving various aspects, finding and testing, libraries, code is well optimized, have logic of core functions written out and reworked.
 
-### OUTSTANDING WORK:
+### OUTSTANDING:
 1) Interaction code - Had to re-create core model interaction test script, as main program was built on original test script, also have fully written out logic. Scripts now have, admin and correct, working directory upon start, not so easy when launching multiple powershel from batch, either way, issue with interactions can now be worked on as path errors are likely having been working dir. 
 2) Syntax Menu - select syntax format from some shortlist of popular formats, this then set to settings file for next run. formats such as, "### Instruction" (used by Daydreamer v3) or "[INST] <<SYS>>" (used by Llama2) or "{system_message} User:" (used by Falcon), will review this later. 
 3) Already has temp implemented in title of engine, when interaction done, must try and re-integrate so people can see updated information about temps, as I feel this is important, additionally would ideally involve freezing of areas of text on the display. Researching into shell enhancements.
