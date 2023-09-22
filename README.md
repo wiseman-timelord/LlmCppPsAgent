@@ -73,8 +73,8 @@ Waiting for response...
 * Model Support - Currently being developed for "[INST] <<SYS>>" syntax, such as Llama-2 models: [Llama-2-7b-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF), [Llama-2-13B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF), [Llama-2-70B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF), though later this will be expanded through syntax selection menu.
 
 ### BACKBURNER:
-* Features I would requires [funding](https://crowdfunder.co.uk/p/wiseman-timelord) to implement.  
-1) Selection of, primary or secondary, graphics cards - having 2 x PCIE, that are ill spaced, and choice of, x16 and 4x, on my MATX motherboard, would have to rig ports cards going in at irregular angles going to break something at some point. Require Asrock motherboard such as B450 PRO4, so as to have 2 spaced out PCIE x16 slots, and compatibility with, 4 DDR DIMM and x3900 cpu.
+<br>Features I would requires [funding](https://crowdfunder.co.uk/p/wiseman-timelord) to implement.  
+* Selection of, primary or secondary, graphics cards - having 2 x PCIE, that are ill spaced, and choice of, x16 and 4x, on my MATX motherboard, would have to rig ports cards going in at irregular angles to fit in. Require Asrock motherboard such as [B450 PRO4](https://www.asrock.com/MB/AMD/B450%20Pro4/index.asp#Specification), or better, so as to have mainly 2 spaced out PCIE x16 slots, but also compatibility with, 4 DDR DIMM and x3900 cpu, and oem drivers for windows 10.
 
 ### NOTICES:
 * Credit to "ggerganov" for his work on [Llama.Cpp](https://github.com/ggerganov), this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware.
