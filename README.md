@@ -1,6 +1,6 @@
 # LlmCppPsBot
 
-### STATUS: Alpha, working on solid product, rather than barebones iffyness.
+### STATUS: Alpha, working on solid release, rather than urr.
 * The scripts are mostly figured out and implemented. Upload will happen upon completion of basic working version, thinking out further and improving other aspects, while working on main scripts. Work remaining for v1.00 is currently...
 1) Interaction code. Had to re-create core model interaction test script, as main program was built on original test script, I now can check the scripts with, this and the fully written out prompt logic. In process of having created 2nd model interaction test script, there as bonus learned better method of doing the prompt syntax.
 2) Menu to select prompt format, dunno, maybe compare model name to shortlist, to see if previously set, and if not, then ask user to select from options, "### Instruction" (used by Daydreamer v3) or "[INST] <<SYS>>" (used by Llama2) or "{system_message} User:" (used by Falcon), syntax formats, will review this later.
