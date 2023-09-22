@@ -2,7 +2,7 @@
 
 ### STATUS: 
 * Alpha - Working on solid release.
-* The scripts are mostly figured out, improving various aspects, finding and testing, libraries, code is well optimized, have logic of core functions written out and reworked.
+The scripts are mostly figured out, improving various aspects, finding and testing, libraries, code is well optimized, have logic of core functions written out and reworked.
 
 ### OUTSTANDING WORK:
 1) Interaction code - Had to re-create core model interaction test script, as main program was built on original test script, also have fully written out logic. Scripts now have, admin and correct, working directory upon start, not so easy when launching multiple powershel from batch, either way, issue with interactions can now be worked on as path errors are likely having been working dir. 
