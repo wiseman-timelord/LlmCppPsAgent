@@ -1,10 +1,9 @@
 # LlmCppPsBot
 
 ### STATUS: Alpha - working on solid release, rather than urr.
-* The scripts are mostly figured out and implemented. Upload will happen upon completion of basic working version, thinking out further and improving other aspects, while working on main scripts. Work remaining for v1.00 is currently...
-1) Interaction code. Had to re-create core model interaction test script, as main program was built on original test script, I now can check the scripts with, this and the fully written out prompt logic. In process of having created 2nd model interaction test script, there as bonus learned better method of doing the prompt syntax.
-2) Menu to select prompt format, dunno, maybe compare model name to shortlist, to see if previously set, and if not, then ask user to select from options, "### Instruction" (used by Daydreamer v3) or "[INST] <<SYS>>" (used by Llama2) or "{system_message} User:" (used by Falcon), syntax formats, will review this later.
-
+* The scripts are mostly figured out, improving various aspects, finding and testing, libraries, code is well optimized. Upload upon completion of working version with desired features, work remaining is currently...
+1) Interaction code - Had to re-create core model interaction test script, as main program was built on original test script, also have fully written out logic.
+2) Syntax Menu - select syntax format from some shortlist of popular formats, this then set to settings file for next run. formats such as, "### Instruction" (used by Daydreamer v3) or "[INST] <<SYS>>" (used by Llama2) or "{system_message} User:" (used by Falcon), will review this later.
 
 ### DESCRIPTION:
 The "LlmCppPsBot" is a sophisticated PowerShell application that integrates GGUF-based models into a dual-window interface on contemporary Windows platforms. Specifically, the, "window_1" and "window_2", scripts are launched independently via batch, with "window_1" dedicated to the engine's operations and "window_2" offering a seamless chat interface. The program leverages ".ENV" file for environment configurations, ensuring adaptability and ease of setup. Additionally, a standalone batch "configuration" is incorporated, streamlining the process of hardware configuration and facilitating the download of essential libraries. This design ensures a robust and user-friendly experience for those interacting with the GGUF models.
