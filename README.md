@@ -71,7 +71,7 @@ Waiting for response...
 
 
 ### BACKBURNER:
-* Possible far-future functions, I may only implement with funding (see crowdfund on my profile).  
+* Possible functions, I would currently only implement with funding (see crowdfund on my profile).  
 1) Selection of, primary or secondary, graphics cards - currently there is the factor of the possibility of breaking hardware, as have issue with, tight and unfit, slots on MATX motherboard. Require ASRock ATX AM4 motherboard with 2/3 PCIE slots 4 DIMM with space between PCIE slots, such as some of the, B450 or B550. Additionally AMD 8GB+ (pref headless) GPU would be better for testing compatibility than the backup GPU I would be using otherwise. 
 
 ### NOTICES:
