@@ -4,7 +4,7 @@
 * Alpha - Working on solid release.
 <br>The scripts are mostly figured out, improving various aspects, finding and testing, libraries, logic of core functions, in place and being reworked.
 1) Model Interaction - Expanded to 3 config keys
-2) upgraded interface - now with mapped content.
+2) upgraded interface - now with, mapped and color, content.
 
 ### OUTSTANDING:
 1) Syntax Menu - select syntax format from some shortlist of popular formats, this then set to settings file for next run. formats such as, "### Instruction" (used by Daydreamer v3) or "[INST] <<SYS>>" (used by Llama2) or "{system_message} User:" (used by Falcon), will review this later. 
