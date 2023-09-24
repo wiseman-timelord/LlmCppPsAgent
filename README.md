@@ -3,7 +3,7 @@
 ### STATUS: 
 * Alpha - Working on solid release.
 <br>The scripts are mostly figured out, improving various aspects, finding and testing, libraries, logic of core functions, in place and being reworked.
-1) Model Interaction - Expanded to 3 config keys
+1) Model Interaction - Expanded to 3 config files for keys
 2) upgraded interface - now with, mapped and color, content.
 
 ### OUTSTANDING:
