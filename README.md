@@ -74,7 +74,7 @@ Waiting for response...
 * Model Support - Currently being developed for "[INST] <<SYS>>" syntax, such as Llama-2 models: [Llama-2-7b-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF), [Llama-2-13B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF), [Llama-2-70B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF), though later this will be expanded through syntax selection menu.
 
 ### BACKBURNER:
-<br>Features I would requires [funding](https://crowdfunder.co.uk/p/wiseman-timelord) to implement.  
+<br>Features I requires [funding](https://crowdfunder.co.uk/p/wiseman-timelord) for...  
 * Selection of, primary or secondary, graphics cards - having 2 x PCIE, that are ill spaced, and choice of, x16 and 4x, on my MATX motherboard, would have to rig ports cards going in at irregular angles to fit in. Require ATX Asrock AM4 motherboard so as to have spaced out PCIE x16 slots, but also compatibility with, 4 x 3200 DDR DIMM and x3900 cpu, and oem drivers for windows 10.
 
 ### NOTICES:
