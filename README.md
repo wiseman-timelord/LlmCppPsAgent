@@ -75,7 +75,7 @@ Waiting for response...
 
 ### BACKBURNER:
 <br>Features I requires [funding](https://crowdfunder.co.uk/p/wiseman-timelord) for...  
-* Selection of, primary or secondary, graphics cards - Require new motherboard so as to have spaced out PCIE x16 slots, but also compatibile spec with current AM4 based hardware, and oem drivers for windows 10.
+* To add Selection of, primary or secondary, graphics cards - Require new ATX AM4 based motherboard so as to have spaced out PCIE x16 slots, currently this will take me a while to aquire.
 
 ### NOTICES:
 * Credit to "ggerganov" for his work on [Llama.Cpp](https://github.com/ggerganov), this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware.
