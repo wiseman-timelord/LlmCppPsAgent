@@ -74,10 +74,7 @@ Waiting for response...
 * Hardware Support - Avx1, Avx2, Avx 512, Non-Avx, ClBlast, CuBlase 11, CuBlas 12, OpenBlas. Use, [HWinfo](https://www.guru3d.com/download/hwinfo64-download) and [GPUz](https://www.guru3d.com/download/gpu-z-2-1/), to figure out your tech.
 * Model Support - Currently being developed for "[INST] <<SYS>>" syntax, such as Llama-2 models: [Llama-2-7b-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF), [Llama-2-13B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF), [Llama-2-70B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF), though later this will be expanded through syntax selection menu.
 
-### BACKBURNER:
-<br>Features I requires [funding](https://crowdfunder.co.uk/p/wiseman-timelord) for...  
-* To add Selection of, primary or secondary, graphics cards - Require new ATX AM4 based motherboard so as to have spaced out PCIE x16 slots, currently this will take me a while to aquire.
-
 ### NOTICES:
-* Credit to "ggerganov" for his work on [Llama.Cpp](https://github.com/ggerganov), this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware.
-* Library [LibreOpenHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor) is used to gain CPU/GPU temps, this is a variation of [Open Hardware Monitor](https://openhardwaremonitor.org/), a great app for, cpu, gpu, ram, monitoring on system tray.
+* Library: Credit to "ggerganov" for his work on [Llama.Cpp](https://github.com/ggerganov), this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware.
+* Library: [LibreOpenHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor) is used to gain CPU/GPU temps, this is a variation of [Open Hardware Monitor](https://openhardwaremonitor.org/), a great app for, cpu, gpu, ram, monitoring on system tray.
+* Library: Thanks to M$ for releasing powershell as open source, but having said that, they should probably instead produce a powershell 7.x update for windows 7/8/8.1, or at least have a note next to it, because they already host a 5.1 update for 7/8/8.1? Many people are under the illusion they cant upgrade past 5.1.
