@@ -3,9 +3,10 @@
 ### STATUS: Alpha.
 - I may be away for some time, so I thought I would put something here incase everything else is lost.
 The scripts are mostly figured out, improving various aspects, finding and testing, libraries, logic of core functions, in place and being reworked. Expect minimal updates here until there is something solid.
-1) Model Interaction - Expanded to 3 config files for keys
-2) upgraded interface - now with, mapped and color, content.
-3) libraries are configured, downloaded, setup, through installer batch. 
+1) libraries are configured, downloaded, setup, through installer batch, thereabouts, research and use, of additional libraries, to enhance various aspects of the program. 
+2) Model Interaction - Expanded to 3 config files for keys
+3) upgraded interface - now with, mapped and color, content.
+
 
 ### OUTSTANDING:
 1) Syntax Menu - select syntax format from some shortlist of popular formats, this then set to settings file for next run. formats such as, "### Instruction" (used by Daydreamer v3) or "[INST] <<SYS>>" (used by Llama2) or "{system_message} User:" (used by Falcon), will review this later. 
