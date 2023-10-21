@@ -1,6 +1,6 @@
 @echo off
 mode 44,22
-title LlmCppPsBot - Config Fix
+title LlmCppPs-Bot - Config Fix
 setlocal
 
 :: Variables for the files to be deleted and copied

@@ -1,6 +1,6 @@
 @echo off
 mode 56,33
-title LlmCppPsBot Setup
+title LlmCppPs-Bot Setup
 setlocal enabledelayedexpansion
 
 :: Title
@@ -114,26 +114,26 @@ for /f "tokens=2 delims==" %%a in ('wmic os get osarchitecture /value') do (
 )
 for /f "tokens=* delims= " %%a in ("!psArch!") do set "psArch=%%a"
 echo !psArch! | findstr /i "32-bit" >nul
-if errorlevel 1 (
+if errorlevel 0 (
     set "psArch=x86"
     echo Architecture: 32-bit
 ) else (
     echo !psArch! | findstr /i "64-bit" >nul
-    if errorlevel 1 (
+    if errorlevel 0 (
         set "psArch=x64"
         echo Architecture: 64-bit
     ) else (
         echo !psArch! | findstr /i "ARM64" >nul
-        if errorlevel 1 (
+        if errorlevel 0 (
             set "psArch=arm64"
             echo Architecture: ARM64
         ) else (
             echo !psArch! | findstr /i "ARM" >nul
-            if errorlevel 1 (
+            if errorlevel 0 (
                 set "psArch=arm32"
                 echo Architecture: ARM32
             ) else (
-                echo Unknown Architecture: !psArch!
+                echo Error: Unable To Detect Architecture
                 pause
                 exit /b
             )

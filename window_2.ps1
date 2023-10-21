@@ -21,7 +21,7 @@ $global:window_identity = "win_2"
 Check-AdminAndDir
 
 # Resize Window and Set Title
-Set-WindowTitleAndSize -title "LlmCppPsBot - Window 2 (Interface)" -width 88 -height 33 -bufferWidth 88 -bufferHeight 99
+Set-WindowTitleAndSize -title "LlmCppPs-Bot - Window 2 (Interface)" -width 88 -height 33 -bufferWidth 88 -bufferHeight 99
 
 # Display Header for Window 2
 Display-Header -headerContent "Interface started - $(Get-Date -Format "HH:mm yyyy/MM/dd")"

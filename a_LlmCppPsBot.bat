@@ -12,7 +12,7 @@ echo                          MULTI-LAUNCHER
 echo ******************************************************************
 echo.
 
-:: Run application LlmCppPsBot
+:: Run application LlmCppPs-Bot
 set "BATCH_DIR=%~dp0"
 echo Running, window_1 and window_2...
 echo.

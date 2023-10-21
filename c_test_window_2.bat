@@ -7,7 +7,7 @@ echo                WINDOW_2 LAUNCHER
 echo ********************************************
 echo.
 
-:: Run application LlmCppPsBot for window_2
+:: Run application LlmCppPs-Bot for window_2
 set "BATCH_DIR=%~dp0"
 echo Running window_2...
 @echo on
