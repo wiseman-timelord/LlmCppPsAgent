@@ -75,7 +75,7 @@ Waiting for response...
 * Model Support - Currently being developed for "[INST] <<SYS>>" syntax, such as Llama-2 models: [Llama-2-7b-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF), [Llama-2-13B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF), [Llama-2-70B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF), though later this will be expanded through syntax selection menu.
 
 ### NOTATIONS:
-[Powershell 7 MSI Installers x64](https://mirrors.sdu.edu.cn/github-release/1700313102/github-release/PowerShell_PowerShell/v7.4.0/)
+[Powershell 7 MSI Installers](https://mirrors.sdu.edu.cn/github-release/1700313102/github-release/PowerShell_PowerShell/v7.4.0/)
 
 ### NOTICES:
 * Library: Credit to "ggerganov" for his work on [Llama.Cpp](https://github.com/ggerganov), this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware.
