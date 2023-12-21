@@ -74,6 +74,9 @@ Waiting for response...
 * Hardware Support - Avx1, Avx2, Avx 512, Non-Avx, ClBlast, CuBlase 11, CuBlas 12, OpenBlas. Use, [HWinfo](https://www.guru3d.com/download/hwinfo64-download) and [GPUz](https://www.guru3d.com/download/gpu-z-2-1/), to figure out your tech.
 * Model Support - Currently being developed for "[INST] <<SYS>>" syntax, such as Llama-2 models: [Llama-2-7b-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF), [Llama-2-13B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF), [Llama-2-70B-chat-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF), though later this will be expanded through syntax selection menu.
 
+### NOTATIONS:
+[Powershell 7 MSI Installers x64](https://mirrors.sdu.edu.cn/github-release/1700313102/github-release/PowerShell_PowerShell/v7.4.0/PowerShell-7.4.0-win-x64.msi]
+
 ### NOTICES:
 * Library: Credit to "ggerganov" for his work on [Llama.Cpp](https://github.com/ggerganov), this program would not run without the pre-compiled "main.exe" files he/his team has kindly compiled for most themes of hardware.
 * Library: [LibreOpenHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor) is used to gain CPU/GPU temps, this is a variation of [Open Hardware Monitor](https://openhardwaremonitor.org/), a great app for, cpu, gpu, ram, monitoring on system tray.
