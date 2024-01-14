@@ -82,4 +82,4 @@ Waiting for response...
 - Using "InputText.dll" in conjunction with "PowershellRM" in Rainmeter to create an interactive interface for language models is quite feasible. 
 
 ## DISCLAIMER
-The "License.Txt" covers, this and relating, stuff.
+This software is subject to the terms in License.Txt, covering usage, distribution, and modifications. For full details on your rights and obligations, refer to License.Txt.
